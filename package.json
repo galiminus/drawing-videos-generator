@@ -1,0 +1,25 @@
+{
+  "name": "video-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "tsc --lib es2015 index.ts && node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "array-flatten": "^2.1.2",
+    "canvas": "^2.3.1",
+    "cli-progress": "^2.1.1",
+    "commander": "^2.19.0",
+    "pixfinder": "^0.2.5",
+    "shell-escape": "^0.2.0",
+    "spritejs": "^2.27.2",
+    "tmp": "^0.0.33"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.21"
+  }
+}
